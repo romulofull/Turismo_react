@@ -1,0 +1,30 @@
+@import "../App.css";
+
+.custom .row {
+  margin-top: 50px;
+  display: flex; /* Flexbox para alinear los elementos en una fila */
+  justify-content: space-between;
+  width: 80%;
+}
+.custom {
+  margin-bottom: 200px;
+  align-items: center; 
+  justify-content: center;
+  display: flex;  
+}
+.custom .box {
+  overflow: hidden;
+  flex:1;
+  margin: 0 30px;
+}
+.custom img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  
+}
+.custom .box:hover img {
+  transform: scale(1.1);
+  cursor: pointer;
+}

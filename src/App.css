@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,400;1,500&display=swap");
+
+:root {
+  --font_family: "Besley", serif;
+}
+
+* {
+  font-family: var(--font_family);
+  transition: 0.3s;
+}
+*::selection {
+  background: var(--main);
+  color: var(--white) !important;
+}
+.btn {
+  width: 300px;
+  border: 1px solid var(--main);
+  color: #f10722 !important;
+  font-weight: 600;
+  z-index: 1;
+  border-radius: 15px;
+  position: relative;
+}
+.btn:hover {
+  color: #fff !important;
+}
+.btn::after {
+  content: "";
+  background: #f10722;
+  height: 100%;
+  width: 0px;
+  top: 0;
+  z-index: -1;
+  left: 0;
+  display: block;
+  position: absolute;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.btn:hover::after {
+  width: 100%;
+}

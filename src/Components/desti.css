@@ -1,0 +1,60 @@
+@import "../App.css";
+.desti {
+  margin-top: -80px;
+  position: relative;
+}
+.desti .content {
+  text-align: center;
+  margin: 70px auto;
+}
+.desti .content h6 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.desti .content p {
+  font-size: 12px;
+}
+.desti .box {
+  position: relative;
+  overflow: hidden;
+}
+.desti .box:hover img {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.desti img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.desti .row {
+  margin: 50px auto;
+  display: flex;
+  margin-top: -50px;
+  gap:20px;
+  width: 90%
+
+}
+.desti .Content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  background: #000;
+  color: #fff;
+  text-align-last: center;
+  opacity: 0;
+}
+.desti .box:hover .Content {
+  opacity: 1;
+}
+.desti .Content h5 {
+  font-weight: 600;
+  font-size: 35px;
+}
+.desti .Content h4 {
+  font-weight: 600;
+  font-size: 20px;
+}

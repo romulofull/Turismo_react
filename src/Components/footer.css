@@ -1,0 +1,47 @@
+@import "../App.css";
+
+footer {
+  background: #000;
+  padding: 20px;
+  margin-top: -150px
+}
+footer .container {
+  color: #fff !important;
+}
+footer .container .row {
+  border-bottom: 2px solid var(--white);
+}
+footer .container h6 {
+  font-size: 20px;
+  color: #f10722 !important;
+  margin: 10px auto;
+}
+footer .container i {
+  display: block;
+  padding-left: 15px;
+  margin: 10px auto;
+  padding-left: 15px;
+  color: #fff !important;
+}
+footer .container i:hover a {
+  color: #f10722 !important;
+  font-weight: 500;
+  padding-left: 25px;
+}
+footer .custom_content {
+  text-align: center;
+  margin: 15px auto;
+  margin-top: -40px;
+  margin-bottom: -40px
+}
+footer .custom_content h6 {
+  font-size: 15px;
+  color: #fff;
+}
+footer .custom_content h6:hover {
+  cursor: pointer;
+}
+.textoa  { font-size: 16px;
+  text-decoration: none !important;
+  color: #fff !important;
+}

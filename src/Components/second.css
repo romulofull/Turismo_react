@@ -1,0 +1,40 @@
+@import "../App.css";
+
+.second_header {
+  position: relative;
+  margin-top: 50px;
+}
+
+.second_header img {
+  height: 80vh;
+  width: 100%;
+  object-fit: cover;
+}
+.second_header .Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 0.4;
+}
+.second_header .Content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.second_header .Content h6 {
+  font-weight: 600;
+  color: #fff;
+  font-size: 40px;
+  display: flex; 
+  height:380px;
+  width: 100%;
+  text-align:center
+}
+.texto { display: flex; 
+  justify-content: center;
+width: 100%}

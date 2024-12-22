@@ -1,0 +1,47 @@
+@import "../App.css";
+
+.header {
+  position: relative;
+  z-index: -1;
+}
+.header img {
+  height: 80vh;
+  width: 100%;
+  object-fit: cover; 
+  object-position: center
+}
+.header .Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.4;
+  z-index: 1;
+}
+.header .Content {
+  position: absolute;
+  top:70%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  background: #fff;
+  padding: 20px;
+  z-index: 10;
+  height: 200px;
+  padding-bottom: 50px;
+  border-radius: 35px
+}
+.header .Content h6 {
+  font-size: 50px;
+  font-weight: 600;
+  z-index: 10;
+  margin-top: -22px
+}
+.header .Content p {
+  font-size: 12px;
+  z-index: 10;
+  color: black;
+  margin-top: -120px
+}
